@@ -1,0 +1,51 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    color:black
+
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    margin-left: 3rem;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-weight: bold;
+    align-items: center;
+    white-space: nowrap; /* prevent wrapping of link texts */
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.social-icons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.social-icons a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
