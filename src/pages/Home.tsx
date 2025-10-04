@@ -8,7 +8,9 @@ import Categories from "../components/Categories";
 import SimpleTasty from "../components/SimpleTasty";
 import EveryOne from "../components/EveryOne";
 import  CheckOut from "../components/CheckOut";
+import  RecipeCards from "../components/RecipesCards";
 import '../styles/Home.css'; 
+import Newsletter from '../components/Newsletter';
 
 const Home: React.FC = () => {
   return (
@@ -40,6 +42,8 @@ const Home: React.FC = () => {
         <SimpleTasty />
         <EveryOne />
         <CheckOut />
+        <RecipeCards />
+        <Newsletter />
     </section>
     
   );

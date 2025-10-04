@@ -37,6 +37,7 @@
     font-weight: bold;
     color: white;
     display: flex;
+    flex-direction: left;
     align-items: center;
     gap: 1rem;
     background-color: rgb(85, 81, 81);
@@ -46,7 +47,7 @@
 }
 
 .scroll-text2 {
-    width: 160px;
+    width: 250px;
     font-size: 1rem;
     font-weight: bold;
     color: white;
@@ -63,7 +64,7 @@
 }
 .hot-recipes-image{
     width: 500px;
-    height:555px;
+    height:600px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     object-fit: cover

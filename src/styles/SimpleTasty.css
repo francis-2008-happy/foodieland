@@ -32,6 +32,7 @@
   width: 100%;
   height: 200px;
   overflow: hidden;
+  position: relative; /* ensure absolute children (favorite-btn) are positioned inside this container */
 }
 
 .food-image {
@@ -110,25 +111,34 @@
 
 }
 
-/* Responsive design */
-@media (max-width: 1024px) {
-  .simple-tasty-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-  }
+.favorite-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s;
 }
 
-@media (max-width: 768px) {
-  .simple-tasty-container {
-    padding: 1rem;
-  }
-  
-  .simple-tasty-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .food-card {
-    max-width: 100%;
-  }
+.favorite-btn:hover {
+  background: #fee;
+  color: #e74c3c;
+}
+
+.favorite-btn svg {
+  stroke: #333;
+  transition: all 0.2s;
+}
+
+.favorite-btn:hover svg {
+  stroke: #e74c3c;
+  fill: #e74c3c;
 }
