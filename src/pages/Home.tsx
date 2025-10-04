@@ -30,7 +30,10 @@ const Home: React.FC = () => {
             <div className="chef">
                 <div className="chef-details">
                     <img src="/chef1.jpg" alt="Chef" className="chef-image" />
-                    <p> <strong>Francis Happy</strong> <br/> 15 March 2025</p>  
+                    <div className="chef-name">
+                        <p> <strong>Francis Happy</strong> </p> 
+                        <p>15 March 2025 </p>
+                    </div> 
                 </div>
                  <p className="scroll-text2"> view Recipes <TvMinimalPlay /> </p>
             </div>

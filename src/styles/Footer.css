@@ -54,12 +54,13 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+    gap: 20rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
 .footer-social{
+    max-width: 800px;
     display: flex;
     flex-direction: right;
     gap: 20rem;
