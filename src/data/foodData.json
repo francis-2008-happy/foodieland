@@ -1,0 +1,77 @@
+{
+    "foodItems": [
+        {
+            "id": 1,
+            "name": "Margherita Pizza, ripe tomatoes, and fresh basil",
+            "picture": "./pizza.jpg",
+            "category": "Pizza",
+            "time": "30 Minutes",
+            "eat": "Chicken"
+        },
+        {
+            "id": 2,
+            "name": "Classic Burger & Tender hamburgers",
+            "picture": "./burger.jpg",
+            "category": "Burger",
+            "time": "20 Minutes",
+            "eat": "Beef"
+        },
+        {
+            "id": 3,
+            "name": "Caesar Salad, at the peak  of freshness",
+            "picture": "./salad.jpg",
+            "category": "Salad",
+            "time": "15 Minutes",
+            "eat": "Fruit"
+
+        },
+        {
+            "id": 4,
+            "name": "Sushi Platter the very best in Town",
+            "picture": "./sushi.jpg",
+            "category": "Sushi",
+            "time": "45 Minutes",
+            "eat": "Fish"
+        },
+        {
+            "id": 5,
+            "name": "Chocolate Cake feel the taste with every bite",
+            "picture": "./chocolatenew.jpg",
+            "category": "Dessert",
+            "time": "18 Minutes",
+            "eat": "Coacoa"
+        },
+        {
+            "id": 6,
+            "name": "Pasta Carbonara and chesse with creamy sauce",
+            "picture": "./pasta.jpg",
+            "category": "Pasta",
+            "time": "25 Minutes",
+            "eat": "Egg"
+        },
+        {
+            "id": 7,
+            "name": "Grilled Salmon with lemon and herbs",
+            "picture": "./Grilled.jpg",
+            "category": "Seafood",
+            "time": "35 Minutes",
+            "eat": "Salmon"
+        },
+        {
+            "id": 8,
+            "name": "Fruit Smoothie fresh and healthy",
+            "picture": "./fruit.jpg",
+            "category": "Drink",
+            "time": "20 Minutes",
+            "eat": "Fruit"
+        },
+        {
+            "id": 9,
+            "name": "BBQ Ribs with smoky flavor",
+            "picture": "./ribs.jpg",
+            "category": "BBQ",
+            "time": "35 Minutes",
+            "eat": "Pork"
+        }
+    ]
+}

@@ -4,14 +4,19 @@ import { ScrollText } from 'lucide-react';
 import { Timer } from 'lucide-react';
 import { Utensils } from 'lucide-react';
 import { TvMinimalPlay } from 'lucide-react';
-import '../styles/Home.css';
+import Categories from "../components/Categories";
+import SimpleTasty from "../components/SimpleTasty";
+import EveryOne from "../components/EveryOne";
+import  CheckOut from "../components/CheckOut";
+import '../styles/Home.css'; 
 
 const Home: React.FC = () => {
   return (
+    <section>
     <div className="hot-recipes">
         <div className="hot-recipes-text">
             <p className="scroll-text"> <ScrollText />  Hot Recipes</p>
-            <h1>Spicy delicious <br /> full chicken </h1>
+            <h1>Spicy delicious <br/> full chicken </h1>
             <p>Your ultimate destination for delicious recipes and culinary inspiration. 
                 Explore a world of flavors, from quick and easy meals to gourmet dishes, 
                 all curated to satisfy your taste buds. Whether you're a seasoned chef or a home cook, 
@@ -31,6 +36,12 @@ const Home: React.FC = () => {
         </div>
         <img src="/chicken.jpg" alt="Hot Recipes" className="hot-recipes-image" />
     </div>
+        <Categories />
+        <SimpleTasty />
+        <EveryOne />
+        <CheckOut />
+    </section>
+    
   );
 };
 
