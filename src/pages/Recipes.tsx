@@ -5,12 +5,14 @@ import LikeRecipes from "../components/LikeRecipes";
 import Newsletter from '../components/Newsletter';
 import Health from '../components/Health';
 import Ingredient from '../components/Ingredient';
+import Directions from '../components/Directions';
 
 const Recipes: React.FC = () => {
   return (
     <div>
       <Health />
       <Ingredient />
+      <Directions />
       <Newsletter />
       <LikeRecipes />
     </div>

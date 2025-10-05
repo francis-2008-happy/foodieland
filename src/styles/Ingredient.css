@@ -107,9 +107,9 @@
     transform: translateX(4px);
 }
 
-.recipe-image {
-    width: 80px;
-    height: 80px;
+.recipe-photo {
+    width: 130px;
+    height: 130px;
     border-radius: 12px;
     object-fit: cover;
 }

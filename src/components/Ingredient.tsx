@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Ingredient.css";
+import { Utensils } from 'lucide-react';
 
 interface RecipeCard {
   id: number;
@@ -94,11 +95,11 @@ const Ingredient: React.FC<IngredientProps> = ({
                 <img
                   src={recipe.image}
                   alt={recipe.title}
-                  className="recipe-image"
+                  className="recipe-photo"
                 />
                 <div className="recipe-info">
                   <h4 className="recipe-title">{recipe.title}</h4>
-                  <p className="recipe-author">By {recipe.author}</p>
+                  <p className="recipe-author"> <Utensils /> By {recipe.author}</p>
                 </div>
               </div>
             ))}
