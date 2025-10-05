@@ -1,0 +1,161 @@
+.top-info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: 7rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.title{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.chef-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.prep-time, .cook-time, .person{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.chicken-time{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 50px; 
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-top:1rem;
+  
+}
+
+/* .person-name, .cook, .prep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+} */
+.print-share{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.print-icon, .share-icon{
+    background-color: rgb(224, 249, 241);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nutrition-container {
+    width: 323px;
+    background: rgb(224, 249, 241);
+    padding: 32px 30px;
+    border-radius: 20px;
+}
+
+.title-nutrition {
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-bottom: 28px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+.nutrition-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.nutrition-item:last-of-type {
+    margin-bottom: 80px;
+}
+
+.label {
+    font-size: 16px;
+    color: #4a5568;
+    font-weight: 400;
+}
+
+.value {
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.middle-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 2rem
+}
+
+.food-video{
+    width: 800px;
+    height: 550px;
+    border-radius: 20px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.bottom-description{
+    margin-top: 5rem;
+    margin: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 5rem;
+}

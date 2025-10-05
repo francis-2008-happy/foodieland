@@ -1,12 +1,18 @@
 // src/pages/Recipes.tsx
 import React from 'react';
 import '../styles/Recipes.css';
+import LikeRecipes from "../components/LikeRecipes";
+import Newsletter from '../components/Newsletter';
+import Health from '../components/Health';
+import Ingredient from '../components/Ingredient';
 
 const Recipes: React.FC = () => {
   return (
     <div>
-      <h2>Recipes Page</h2>
-      <p>Explore our delicious recipes!</p>
+      <Health />
+      <Ingredient />
+      <Newsletter />
+      <LikeRecipes />
     </div>
   );
 };
