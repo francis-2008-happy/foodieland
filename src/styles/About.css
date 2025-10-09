@@ -1,0 +1,118 @@
+/* .about-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+} */
+
+.about-steps h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.person-new-new{
+    display: flex;
+    flex: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.person-n{
+        display: flex;
+        flex: row;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+
+
+}
+
+.vertical-guide {
+    width: 1px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.chef-image-2{
+    width: 1200px;
+    height: 700px;
+    border-radius: 3%;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    margin-right: 7rem;
+    margin-bottom: 3rem;
+
+}
+
+.about-intro{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.food-industry{
+    margin-left: 15rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-icons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    width: 1000px;
+}
+
+.about-icons a{
+    text-decoration: none;
+    color: black;
+    gap: 10rem;
+}
+
+.about-icons p{
+    font-weight: bold;
+}
+
+.text1 h1{
+    margin-bottom: 4rem;
+}
+
+.did-cook{
+    margin-left: 15rem;
+    margin-right: 25rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.chef-image-3{
+    border-radius: 2.5rem;
+}

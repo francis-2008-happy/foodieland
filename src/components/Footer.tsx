@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
                 </ul>
             </nav>
             </div>
-            <hr />
+            <hr className="line"/>
             <div className='footer-social'> 
               <p> 2025@foodieland.com. <span className="color">  All rights reserved.</span></p>
               <div className='social-icons'>

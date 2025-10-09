@@ -1,0 +1,274 @@
+{
+  "mainPosts": [
+    {
+      "id": 1,
+      "title": "Crochet Projects for Noodle Lovers",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Wade Warren",
+      "date": "12 November 2021",
+      "image": "/breakfast.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "10 Vegetarian Recipes To Eat This Month",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Robert Fox",
+      "date": "17 November 2021",
+      "image": "/chocolate.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Full Guide to Becoming a Professional Chef",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Dianne Russell",
+      "date": "12 November 2021",
+      "image": "/lunch.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Simple & Delicious Vegetarian Lasagna",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Leslie Alexander",
+      "date": "12 November 2021",
+      "image": "/recipescard1.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Plantain and Pinto Stew with Aji Verde",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Courtney Henry",
+      "date": "12 November 2021",
+      "image": "/recipescard6.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "We're Hiring a Communications Assistant!",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Albert Flores",
+      "date": "12 November 2021",
+      "image": "/recipescard8.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Spicy Thai Basil Chicken Stir Fry",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Wade Warren",
+      "date": "15 November 2021",
+      "image": "/recipescard4.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Perfect Homemade Pizza Dough Recipe",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Robert Fox",
+      "date": "18 November 2021",
+      "image": "/recipescard8.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Mediterranean Quinoa Salad Bowl",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Leslie Alexander",
+      "date": "20 November 2021",
+      "image": "/recipescard3.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Authentic Italian Carbonara Pasta",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Dianne Russell",
+      "date": "22 November 2021",
+      "image": "/recipescard5.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Crispy Oven-Baked Chicken Wings",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Courtney Henry",
+      "date": "25 November 2021",
+      "image": "/lunch.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Classic French Onion Soup",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Albert Flores",
+      "date": "28 November 2021",
+      "image": "/dessert.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Best Ever Chocolate Chip Cookies",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Wade Warren",
+      "date": "01 December 2021",
+      "image": "/cook.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Healthy Green Smoothie Bowl",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Robert Fox",
+      "date": "03 December 2021",
+      "image": "/Grilled.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Traditional Japanese Ramen Recipe",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Leslie Alexander",
+      "date": "05 December 2021",
+      "image": "/recipescard8.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Grilled Salmon with Lemon Butter",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Dianne Russell",
+      "date": "08 December 2021",
+      "image": "/recipescard7.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Mexican Street Tacos at Home",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Courtney Henry",
+      "date": "10 December 2021",
+      "image": "/recipescard6.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Creamy Mushroom Risotto",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Albert Flores",
+      "date": "12 December 2021",
+      "image": "/recipescard5.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Homemade Beef Burgers Done Right",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Wade Warren",
+      "date": "15 December 2021",
+      "image": "/burger.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Vegan Buddha Bowl with Tahini Dressing",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Robert Fox",
+      "date": "17 December 2021",
+      "image": "/recipescard4.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Classic Apple Pie with Flaky Crust",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Leslie Alexander",
+      "date": "20 December 2021",
+      "image": "/fruit.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Korean BBQ Short Ribs Recipe",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Dianne Russell",
+      "date": "22 December 2021",
+      "image": "/ribs.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Fresh Summer Caprese Salad",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Courtney Henry",
+      "date": "25 December 2021",
+      "image": "/salad.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Fluffy Buttermilk Pancakes",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Albert Flores",
+      "date": "28 December 2021",
+      "image": "/recipescard3.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Spicy Shrimp Pad Thai",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Wade Warren",
+      "date": "30 December 2021",
+      "image": "/recipescard2.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Slow-Cooked Beef Stew",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Robert Fox",
+      "date": "02 January 2022",
+      "image": "/meat.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Baked Feta Pasta Trend",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Leslie Alexander",
+      "date": "05 January 2022",
+      "image": "/pasta.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Crispy Fish and Chips",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Dianne Russell",
+      "date": "08 January 2022",
+      "image": "/recipescard1.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Homemade Cinnamon Rolls",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Courtney Henry",
+      "date": "10 January 2022",
+      "image": "/vegan.jpg",
+      "authorAvatar": "/chef1.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Perfect Sushi Rolls at Home",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim",
+      "author": "Albert Flores",
+      "date": "12 January 2022",
+      "image": "/sushi.jpg",
+      "authorAvatar": "/chef1.jpg"
+    }
+  ]
+}

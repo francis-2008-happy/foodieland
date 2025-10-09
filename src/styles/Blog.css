@@ -1,0 +1,14 @@
+.blog-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0rem;
+}
+
+.blog-header h1{
+    font-size: 5rem;
+    margin-bottom: 0.5rem;  
+
+}

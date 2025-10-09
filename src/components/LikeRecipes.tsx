@@ -20,7 +20,7 @@ const LikeRecipes: React.FC = () => {
       <div className="recipe-grid">
         {likerecipe.map((recipe: Recipe) => (
           <div key={recipe.id} className="recipe-card">
-            <div className="recipe-image">
+            <div className="recipe-image-main">
               <img src={recipe.image} alt={recipe.title} />
               <button className="favorite-btn">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
