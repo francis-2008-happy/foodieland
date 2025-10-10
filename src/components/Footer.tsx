@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         <footer className="footer-container">
           
             <Link to="/"> 
-                <img src="/foodieland logo.JPG" alt="Site Logo" className="logo" />
+                <img src="/foodieland logo.webp" alt="Site Logo" className="logo" />
             </Link>
             <div className="footer-content">
               <p> Thank you for ordering with us, we hope you had a great time 

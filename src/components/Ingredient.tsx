@@ -34,25 +34,25 @@ const Ingredient: React.FC<IngredientProps> = ({
     {
       id: 1,
       image:
-        "./Chicken-meatball.jpg",
+  "./Chicken-meatball.webp",
       title: "Chicken Meatball with Creamy Chees...",
       author: "Andreas Pasta",
     },
     {
       id: 2,
-      image: "./Creamiest-creamy.jpg",
+  image: "./Creamiest-creamy.webp",
       title: "The Creamiest Creamy Chicken an...",
       author: "Andreas Pasta",
     },
     {
       id: 3,
       image:
-        "./Pot-chicken.jpg",
+  "./Pot-chicken.webp",
       title: "The Best Easy One Pot Chicken and Rice",
       author: "Andreas Pasta",
     },
   ],
-  adImage = "./healthy-food.jpg",
+  adImage = "./healthy-food.webp",
   adText = "Don't forget to eat healthy food",
   adWebsite = "www.foodieland.com",
 }) => {

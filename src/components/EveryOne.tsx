@@ -13,7 +13,7 @@ const EveryOne: React.FC = () => {
             </p>
             <button className="learn-more">  Learn More </button>
         </div>
-        <img src="/cook.jpg" alt="chef iamge" className="chef-photo" />
+  <img src="/cook.webp" alt="chef iamge" className="chef-photo" />
     </div>
     </section>
     

@@ -8,12 +8,12 @@ interface Category {
 
 const Categories: React.FC = () => {
   const categories: Category[] = [
-    { name: "Breakfast", image: "./breakfast.jpg" },
-    { name: "Vegan", image: "./vegan.jpg" },
-    { name: "Meat", image: "./meat.jpg" },
-    { name: "Dessert", image: "./dessert.jpg" },
-    { name: "Lunch", image: "./lunch.jpg" },
-    { name: "Chocolate", image: "./chocolate.jpg" },
+  { name: "Breakfast", image: "./breakfast.webp" },
+  { name: "Vegan", image: "./vegan.webp" },
+  { name: "Meat", image: "./meat.webp" },
+  { name: "Dessert", image: "./dessert.webp" },
+  { name: "Lunch", image: "./lunch.webp" },
+  { name: "Chocolate", image: "./chocolate.webp" },
   ];
 
   return (

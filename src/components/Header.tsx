@@ -16,7 +16,7 @@ const Header: React.FC = () => {
     return (
         <header className="header-container">
             <Link to="/"> 
-                <img src="/foodieland logo.JPG" alt="Site Logo" className="logo" />
+                <img src="/foodieland logo.webp" alt="Site Logo" className="logo" />
             </Link> 
                  
 

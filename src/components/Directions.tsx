@@ -15,7 +15,7 @@ const Directions: React.FC = () => {
           when you start cooking it will not be stressful anymore, because you
           made real preparations
         </p>
-        <img src="./chef-full.jpg" alt="Step 1" />
+  <img src="./chef-full.webp" alt="Step 1" />
         <p>
           Gather all necessary ingredients and utensils. Preheat your oven to
           the required temperature if baking. wash and clean everything, so that

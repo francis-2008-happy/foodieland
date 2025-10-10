@@ -14,7 +14,7 @@ const Recipes: React.FC = () => {
       <div className="about-steps">
         <h1>Full Guide to Becoming a Professional Chef </h1>
         <div className="person-new-new">
-          <img src="/chef1.jpg" alt="Chef" className="chef-image" />
+          <img src="/chef1.webp" alt="Chef" className="chef-image" />
           <div className="person-n">
             <p>
               <strong>Francis Happy</strong>{" "}
@@ -31,7 +31,7 @@ const Recipes: React.FC = () => {
           chef and change your life and that of your family
         </p>
 
-        <img src="/chef-full.jpg" alt="Chef" className="chef-image-2" />
+  <img src="/chef-full.webp" alt="Chef" className="chef-image-2" />
       </div>
 
       <div className="food-industry">
@@ -73,7 +73,7 @@ const Recipes: React.FC = () => {
           worked my way up from line cook to sous chef and eventually became an
         </p>
         <h1> Do you cook at home on your days off?</h1>
-        <img src="/chef-full2.jpg" alt="Chef" className="chef-image-3" />
+  <img src="/chef-full2.webp" alt="Chef" className="chef-image-3" />
         <p>
           I started out in the food industry by working in a local restaurant as
           a dishwasher. I was fascinated by the chefs and their ability to

@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
     <div className="contact-page">
       <h1> Contact us </h1>
       <div className="top-form">
-        <img src="/chef1.jpg" alt="Contact Us" className="contact-image" />
+  <img src="/chef1.webp" alt="Contact Us" className="contact-image" />
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
             <div className="form-field">

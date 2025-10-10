@@ -36,12 +36,12 @@ const BlogData: React.FC = () => {
 
   // Local side recipes (could be loaded from a separate data file)
   const otherRecipes: SideRecipe[] = [
-    { id: 1, image: "/recipescard1.jpg", title: "Chicken Meatball with Creamy Chees...", author: "Andreas Pasta" },
-    { id: 2, image: "/recipescard2.jpg", title: "The Creamiest Creamy Chicken an...", author: "Andreas Pasta" },
-    { id: 3, image: "/recipescard3.jpg", title: "The Best Easy One Pot Chicken and Rice", author: "Andreas Pasta" },
+    { id: 1, image: "/recipescard1.webp", title: "Chicken Meatball with Creamy Chees...", author: "Andreas Pasta" },
+    { id: 2, image: "/recipescard2.webp", title: "The Creamiest Creamy Chicken an...", author: "Andreas Pasta" },
+    { id: 3, image: "/recipescard3.webp", title: "The Best Easy One Pot Chicken and Rice", author: "Andreas Pasta" },
   ];
 
-  const adImage = "/healthy-food.jpg";
+  const adImage = "/healthy-food.webp";
   const adText = "Don't forget to eat healthy food";
   const adWebsite = "www.foodieland.com";
 

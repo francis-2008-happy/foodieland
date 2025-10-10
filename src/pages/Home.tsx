@@ -29,7 +29,7 @@ const Home: React.FC = () => {
             </div>
             <div className="chef">
                 <div className="chef-details">
-                    <img src="/chef1.jpg" alt="Chef" className="chef-image" />
+                    <img src="/chef1.webp" alt="Chef" className="chef-image" />
                     <div className="chef-name">
                         <p> <strong>Francis Happy</strong> </p> 
                         <p>15 March 2025 </p>
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
             </div>
 
         </div>
-        <img src="/chicken.jpg" alt="Hot Recipes" className="hot-recipes-image" />
+    <img src="/chicken.webp" alt="Hot Recipes" className="hot-recipes-image" />
     </div>
         <Categories />
         <SimpleTasty />

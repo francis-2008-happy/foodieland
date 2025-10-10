@@ -13,7 +13,7 @@ const Health: React.FC = () => {
         <div className="top-info">
             <div className="top-bar">
                 <div className="person">
-                    <img src="/chef1.jpg" alt="Chef" className="chef-image" />
+                    <img src="/chef1.webp" alt="Chef" className="chef-image" />
                     <div className="person-name">
                         <p> <strong>Francis Happy</strong> </p> 
                         <p>15 March 2025 </p>

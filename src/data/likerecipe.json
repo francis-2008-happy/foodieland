@@ -2,28 +2,28 @@
     {
         "id": 1,
         "title": "Mixed Tropical Fruit Salad with Superfood Boosts",
-    "image": "/recipescard1.jpg",
+    "image": "/recipescard1.webp",
         "time": 20,
         "category": "Healthy"
     },
     {
         "id": 2,
         "title": "Big and Juicy Wagyu Beef Cheeseburger",
-    "image": "/recipescard2.jpg",
+    "image": "/recipescard2.webp",
         "time": 30,
         "category": "Western"
     },
     {
         "id": 3,
         "title": "Healthy Japanese Fried Rice with Asparagus",
-    "image": "/recipescard3.jpg",
+    "image": "/recipescard3.webp",
         "time": 30,
         "category": "Healthy"
     },
     {
         "id": 4,
         "title": "Cauliflower Walnut Vegetarian Taco Meat",
-    "image": "/recipescard4.jpg",
+    "image": "/recipescard4.webp",
         "time": 30,
         "category": "Eastern"
     }
