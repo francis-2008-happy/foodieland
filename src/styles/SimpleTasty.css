@@ -142,3 +142,87 @@
   stroke: #e74c3c;
   fill: #e74c3c;
 }
+
+
+@media (max-width: 768px) {
+
+  .simple-tasty-container {
+    padding: 1rem;
+    margin: 0 1rem;
+  }
+
+  /* Grid becomes single column on mobile */
+  .simple-tasty-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  /* Food card adjustments */
+  .food-card {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .food-image-container {
+    height: 180px;
+  }
+
+  .food-content {
+    padding: 1rem;
+  }
+
+  .food-name {
+    font-size: 1.1rem;
+  }
+
+  .food-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+
+  /* Scrollable text container (optional horizontal scroll) */
+  .scroll-text-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .scroll-text-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll1 {
+    flex: 0 0 auto;
+    /* prevents shrinking */
+    min-width: 80px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* Favorite button slightly smaller */
+  .favorite-btn {
+    width: 35px;
+    height: 35px;
+    top: 8px;
+    right: 8px;
+  }
+
+  .favorite-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Headings and paragraphs adjustments */
+  .simple-tasty-container h1 {
+    font-size: 2rem;
+  }
+
+  .simple-tasty-container p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}

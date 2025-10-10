@@ -51,3 +51,44 @@
     width: auto;
     border-radius: 10px;
 }
+
+
+@media (max-width: 768px) {
+
+    .checkout {
+        margin-top: 3rem;
+        padding: 0 1rem;
+    }
+
+    .checkout h1,
+    .checkout p {
+        font-size: 1.2rem;
+        text-align: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .visit-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+        border-radius: 15px;
+    }
+
+    /* Instagram images 2 columns per row */
+    .insta-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        margin: 2rem 0;
+        margin-left: 0;
+        margin-right: 0;
+        justify-items: center;
+    }
+
+    .check-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}

@@ -22,14 +22,19 @@ const Categories: React.FC = () => {
         <h2 className="categories-title">Categories</h2>
         <button className="categories-button">View All Categories</button>
       </div>
-
-      <div className="categories-list">
-        {categories.map((cat) => (
-          <div key={cat.name} className="category-card">
-            <img src={cat.image} alt={cat.name} className="category-image" />
-            <p className="category-name">{cat.name}</p>
-          </div>
-        ))}
+      <div className="categories-list-wrapper">
+        {/* Left arrow */}
+        <div className="scroll-arrow left-arrow">&#10094;</div>
+        <div className="categories-list">
+          {categories.map((cat) => (
+            <div key={cat.name} className="category-card">
+              <img src={cat.image} alt={cat.name} className="category-image" />
+              <p className="category-name">{cat.name}</p>
+            </div>
+          ))}
+        </div>
+        {/* Right arrow */}
+        <div className="scroll-arrow right-arrow">&#10095;</div>
       </div>
     </section>
   );

@@ -1,11 +1,12 @@
-.header-container{
+/* Desktop styles remain the same */
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 1rem 2rem;
-    color:black
-
+    color: black;
+    position: relative;
 }
 
 .logo {
@@ -23,18 +24,16 @@
     gap: 3rem;
     font-weight: bold;
     align-items: center;
-    white-space: nowrap; /* prevent wrapping of link texts */
+    white-space: nowrap;
 }
 
 .nav-links li a {
     color: black;
     text-decoration: none;
-    position: relative;
     font-size: 1.2rem;
 }
 
 .nav-links li a:hover {
-    text-decoration: none;
     color: blue;
 }
 
@@ -49,3 +48,111 @@
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+/* Hide mobile hamburger and overlay by default */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+
+    /* Hide desktop nav & social icons */
+    .nav-desktop {
+        display: none;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: block;
+        z-index: 1002;
+    }
+
+    /* Mobile overlay */
+
+        .mobile-overlay {
+            position: fixed;
+            top: 0;
+            left: 150px;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            z-index: 1001;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem;
+            animation: fadeIn 0.3s ease-in-out;
+            background-color: rgb(0, 0, 0);
+            /* No background-image here anymore */
+        }
+    
+        /* Pseudo-element for the blurred background */
+        .mobile-overlay::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/public/chicken.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: blur(5px);
+            /* Only blurs the image */
+            background-color: rgba(0, 0, 0, 0.881);
+            /* Optional colored overlay */
+            z-index: -1;
+            /* Behind the content */
+        }
+
+    .mobile-nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: left;
+    }
+
+    .icon-white {
+        stroke: #fff;
+        }
+
+    .mobile-nav-links li a {
+        color: white;
+        font-size: 1.8rem;
+        text-decoration: none;
+    }
+
+    .mobile-nav-links li a:hover {
+        color: #ffcc00;
+    }
+
+    .mobile-social-icons {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .mobile-social-icons a {
+        color: white;
+        font-size: 2rem;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+
+

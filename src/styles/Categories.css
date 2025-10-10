@@ -86,3 +86,121 @@
     font-weight: 500;
     font-size: 16px;
 }
+
+
+/* ================= MOBILE VIEW ONLY ================= */
+@media (max-width: 768px) {
+
+    /* Reduce container margins for mobile */
+    .categories-section {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        padding: 20px 0;
+    }
+
+    /* Stack header vertically */
+    .categories-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .categories-title {
+        font-size: 28px;
+    }
+
+    .categories-button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    /* Horizontal scroll for categories */
+    @media (max-width: 768px) {
+
+  .categories-list-wrapper {
+      position: relative;
+      width: 100%;
+  }
+
+  .scroll-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.3);
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 2;
+      font-size: 18px;
+      user-select: none;
+  }
+
+  .left-arrow {
+      left: 5px;
+  }
+
+  .right-arrow {
+      right: 5px;
+  }
+
+  /* Scrollable list styles (unchanged from before) */
+  .categories-list {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 10px;
+      margin-top: 15px;
+      flex-wrap: nowrap;
+      scrollbar-width: none;
+  }
+
+  .categories-list::-webkit-scrollbar {
+      display: none;
+  }
+
+  .category-card {
+      flex: 0 0 auto;
+      min-width: 120px;
+      max-width: 150px;
+      margin-bottom: 10px;
+  }
+}
+
+    .category-image {
+        width: 100%;
+        height: 120px;
+    }
+
+    .category-name {
+        font-size: 14px;
+    }
+
+    /* Gradient fade to indicate scroll */
+    .categories-list-wrapper::before,
+    .categories-list-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 40px;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .categories-list-wrapper::before {
+        left: 0;
+        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+
+    .categories-list-wrapper::after {
+        right: 0;
+        background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+}

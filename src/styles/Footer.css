@@ -1,11 +1,8 @@
+/* Desktop styles remain the same */
 .footer-container {
-    /* margin-top: 10rem; */
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     gap: 2rem;
     padding: 1rem 2rem;
-    color: black
+    color: black;
 }
 
 .logo {
@@ -24,18 +21,15 @@
     font-weight: bold;
     align-items: center;
     white-space: nowrap;
-    /* prevent wrapping of link texts */
 }
 
 .nav-links li a {
     color: black;
     text-decoration: none;
-    position: relative;
     font-size: 1.2rem;
 }
 
 .nav-links li a:hover {
-    text-decoration: none;
     color: blue;
 }
 
@@ -50,8 +44,9 @@
     text-decoration: none;
     font-size: 1.5rem;
 }
-.footer-content{
-    display:flex;
+
+.footer-content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20rem;
@@ -59,23 +54,85 @@
     margin-right: 3rem;
 }
 
-.footer-social{
+.footer-social {
     max-width: 800px;
     display: flex;
-    flex-direction: right;
+    flex-direction: row;
     gap: 20rem;
     align-items: center;
     position: relative;
     left: 37rem;
     font-weight: bold;
-
 }
 
-.color{
-    color:red;
+.color {
+    color: red;
 }
 
-.line{
+.line {
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-links li a {
+        font-size: 1.4rem;
+    }
+
+    .footer-social {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        position: static;
+        left: 0;
+        font-weight: bold;
+    }
+
+    .social-icons {
+        gap: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1.8rem;
+    }
+
+    .line {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    .footer-content p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }

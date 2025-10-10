@@ -187,30 +187,52 @@
         height: 150px;
     }
 }
-
 @media (max-width: 768px) {
     .newsletter-container {
-        padding: 40px 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 30px 15px;
+        border-radius: 20px;
+    }
+
+    .newsletter-main {
+        max-width: 100%;
+        text-align: center;
+        padding: 0 10px;
     }
 
     .newsletter-main h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 12px;
     }
 
     .newsletter-main p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        max-width: 100%;
     }
 
     .newsletter-form {
         flex-direction: column;
         width: 100%;
+        gap: 10px;
     }
 
-    .email-input,
-    .subscribe-btn {
+    .email-input {
         width: 100%;
+        font-size: 0.9rem;
+        padding: 12px 20px;
     }
 
+    .subscribe-btn {
+        border-radius: 25px;
+        width: 30%;
+        font-size: 0.9rem;
+        padding: 12px 20px;
+    }
+
+    /* Hide floating veggies on mobile */
     .floating-veggies {
         display: none;
     }
@@ -219,5 +241,14 @@
 @media (max-width: 480px) {
     .newsletter-main h1 {
         font-size: 1.5rem;
+    }
+
+    .newsletter-main p {
+        font-size: 0.8rem;
+    }
+
+    .email-input,
+    .subscribe-btn {
+        padding: 10px 15px;
     }
 }
