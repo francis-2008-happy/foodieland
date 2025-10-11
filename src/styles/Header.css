@@ -63,11 +63,21 @@
         display: none;
     }
 
+    /* Ensure desktop social-icons are definitely hidden on mobile (higher specificity) */
+    .header-container .social-icons.nav-desktop {
+        display: none;
+    }
+
     /* Show hamburger */
     .hamburger {
         display: block;
         z-index: 1002;
+        /* push hamburger to the far right so nothing appears between logo and it */
+        margin-left: auto;
     }
+
+    /* make logo sit flush left on mobile */
+    .logo { margin-left: 0.8rem; height: 48px }
 
     /* Mobile overlay */
 
