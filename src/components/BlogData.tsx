@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/BlogData.css";
 import blogData from "../data/blogData.json";
-import { Utensils } from "lucide-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Types used by this component

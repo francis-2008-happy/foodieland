@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { Facebook } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 import { Instagram } from 'lucide-react';
-import { House } from 'lucide-react';
 import { CookingPot } from 'lucide-react';
 import { Rss } from 'lucide-react';
 import { Contact } from 'lucide-react';
@@ -37,9 +36,9 @@ const Footer: React.FC = () => {
             <div className='footer-social'> 
               <p> 2025@foodieland.com. <span className="color">  All rights reserved.</span></p>
               <div className='social-icons'>
-                <a href="#" aria-label="Facebook"> <Facebook /> </a>
-                <a href="#" aria-label="Twitter">  <Twitter /> </a>
-                <a href="#" aria-label="Instagram">  <Instagram /> </a>
+                <a href="www.facebook.com" aria-label="Facebook"> <Facebook /> </a>
+                <a href="www.twitter.com" aria-label="Twitter">  <Twitter /> </a>
+                <a href="www.instagram.com" aria-label="Instagram">  <Instagram /> </a>
               </div>
             </div>
         </footer>

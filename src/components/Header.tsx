@@ -63,13 +63,13 @@ const Header: React.FC = () => {
 
       {/* Social Icons Desktop */}
       <div className="social-icons nav-desktop">
-        <a href="#" aria-label="Facebook">
+        <a href="www.facebook.com" aria-label="Facebook">
           <Facebook />
         </a>
-        <a href="#" aria-label="Twitter">
+        <a href="www.twitter.com" aria-label="Twitter">
           <Twitter />
         </a>
-        <a href="#" aria-label="Instagram">
+        <a href="www.instagram.com" aria-label="Instagram">
           <Instagram />
         </a>
       </div>
@@ -113,13 +113,13 @@ const Header: React.FC = () => {
             </li>
           </ul>
           <div className="mobile-social-icons">
-            <a href="#" aria-label="Facebook">
+            <a href="www.facebook.com" aria-label="Facebook">
               <Facebook />
             </a>
-            <a href="#" aria-label="Twitter">
+            <a href="www.twitter.com" aria-label="Twitter">
               <Twitter />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="www.instagram.com" aria-label="Instagram">
               <Instagram />
             </a>
           </div>
