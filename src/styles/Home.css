@@ -102,8 +102,8 @@
     /* Hot Recipes Section */
     .hot-recipes {
         flex-direction: column;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        margin-left: 0;
+        margin-right: 0;
         max-width: 100%;
         border-radius: 20px;
         gap: 1rem;
@@ -167,7 +167,7 @@
         text-align: center;
         padding: 0.5rem;
         border-radius: 50px;
-        margin-left: 6rem;
+        margin-left: 4rem;
         margin-bottom: 2rem;
 
         }
@@ -181,7 +181,7 @@
         text-align: center;
         padding: 0.5rem;
         border-radius: 50px;
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
 
     /* Chef Section */

@@ -143,18 +143,19 @@
 
   .contact-image {
     width: 100%;
-    /* Full width */
-    max-width: 400px;
-    /* Limit max width */
+    border-radius: 2rem;
+    /* max-width: 400px; */
     height: auto;
-    /* Maintain aspect ratio */
-    margin: 0 auto;
-    /* Center the image */
+    margin: 0;
+    
   }
 
   .contact-form {
     padding: 1.5rem;
-    /* Reduce padding */
+    border-radius: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    
   }
 
   .form-row {

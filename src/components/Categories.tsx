@@ -22,8 +22,8 @@ const Categories: React.FC = () => {
         <h2 className="categories-title">Categories</h2>
         <button className="categories-button">View All Categories</button>
       </div>
-      <div className="categories-list-wrapper">
-        {/* Left arrow */}
+      {/* <div className="categories-list-wrapper">
+        Left arrow */}
         <div className="scroll-arrow left-arrow">&#10094;</div>
         <div className="categories-list">
           {categories.map((cat) => (
@@ -33,9 +33,9 @@ const Categories: React.FC = () => {
             </div>
           ))}
         </div>
-        {/* Right arrow */}
-        <div className="scroll-arrow right-arrow">&#10095;</div>
-      </div>
+        {/* Right arrow
+        <div className="scroll-arrow right-arrow">&#10095;</div> */}
+      {/* </div> */}
     </section>
   );
 };

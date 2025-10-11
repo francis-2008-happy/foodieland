@@ -1,7 +1,7 @@
 .newsletter-container {
     margin-right: 10rem;
     margin-left: 10rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     border-radius: 30px;
     /* width: 100%; */
     background: linear-gradient(135deg, #e0f7fa 0%, #e1f5fe 100%);
@@ -189,8 +189,8 @@
 }
 @media (max-width: 768px) {
     .newsletter-container {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0;
+        margin-right: 0;
         padding: 30px 15px;
         border-radius: 20px;
     }
@@ -227,7 +227,8 @@
 
     .subscribe-btn {
         border-radius: 25px;
-        width: 30%;
+        width: 60%;
+        text-align: center;
         font-size: 0.9rem;
         padding: 12px 20px;
     }
