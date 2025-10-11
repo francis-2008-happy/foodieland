@@ -170,7 +170,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .ingredient-container {
         flex-direction: column;
     }
@@ -178,5 +178,102 @@
     .ingredient-left,
     .ingredient-right {
         max-width: 100%;
+    }
+} */
+
+@media (max-width: 768px) {
+
+    .ingredient-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .ingredient-left {
+        max-width: 100%;
+        gap: 0;
+    }
+
+    .ingredient-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .ingredient-section,
+    .ingredient-sauce-section {
+        gap: 0;
+        margin-bottom: 20px;
+        margin-top: 2rem;
+    }
+
+    .ingredient-subtitle {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .ingredient-item {
+        gap: 1rem;
+    }
+
+    .ingredient-checkbox {
+        width: 28px;
+        height: 28px;
+    }
+
+    .ingredient-text {
+        font-size: 14px;
+    }
+
+    .ingredient-right {
+        max-width: 100%;
+        gap: 16px;
+    }
+
+    .other-recipe-card {
+        padding: 15px;
+    }
+
+    .other-recipe-title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .recipe-item {
+        gap: 10px;
+    }
+
+    .recipe-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .recipe-title {
+        font-size: 13px;
+    }
+
+    .recipe-author {
+        font-size: 11px;
+    }
+
+    .ad-card {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .ad-text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .ad-image {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .ad-website {
+        font-size: 12px;
     }
 }

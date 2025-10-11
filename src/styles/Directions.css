@@ -19,3 +19,25 @@
     margin-bottom: 2rem
 
 }
+
+@media (max-width: 768px) {
+
+    .directions {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 5rem;
+    }
+
+    .direction-step {
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+
+    .direction-step img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

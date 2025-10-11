@@ -3,6 +3,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: rgba(217, 246, 252, 0.964);
 }
 
 .form-row {
@@ -123,4 +124,54 @@
     margin-right: 5rem;
     margin-left: 5rem;
     flex-direction: row;
+}
+
+/* =======================
+   Mobile Responsive Styles
+   ======================= */
+@media (max-width: 768px) {
+  .top-form {
+    flex-direction: column;
+    /* Stack form and image vertically */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    gap: 2rem;
+    /* Reduce space between form and image */
+  }
+
+  .contact-image {
+    width: 100%;
+    /* Full width */
+    max-width: 400px;
+    /* Limit max width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 0 auto;
+    /* Center the image */
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+    /* Reduce padding */
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    /* Single column layout for inputs */
+    gap: 1rem;
+  }
+
+  .form-submit {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .contact-page h1 {
+    font-size: 3rem;
+    /* Smaller heading on mobile */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
 }

@@ -12,3 +12,33 @@
     margin-bottom: 0.5rem;  
 
 }
+
+@media (max-width: 768px) {
+    .blog-header {
+        padding: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .blog-header h1 {
+        font-size: 2.2rem;
+        /* smaller for mobile */
+        line-height: 1.2;
+        margin-bottom: 0.8rem;
+    }
+
+    .blog-header p {
+        font-size: 1rem;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .blog-header p {
+        font-size: 0.95rem;
+    }
+}
